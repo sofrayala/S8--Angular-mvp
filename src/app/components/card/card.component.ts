@@ -1,10 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { CardInterface } from '../../interfaces/card-interface';
 import { CommonModule } from '@angular/common';
-
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-card',
-  imports: [CommonModule],
+  imports: [CommonModule, MatButtonModule, MatMenuModule, MatIconModule],
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
 })
