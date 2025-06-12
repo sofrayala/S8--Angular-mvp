@@ -1,0 +1,33 @@
+.card {
+  min-height: 200px;
+  margin: 2rem;
+  border-radius: 2rem;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 1px rgba(29, 28, 28, 0.5);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+// .layer {
+//   position: absolute;
+//   inset: 0;
+//   background: rgba(0, 0, 0, 0.35);
+// }
+
+.card-info {
+  margin: 2.5rem;
+}
+
+h1 {
+  font-size: xx-large;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+}
+
+p {
+  font-size: large;
+  color: white;
+}

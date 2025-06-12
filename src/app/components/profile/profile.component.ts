@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
 import { NavbarComponent } from '../navbar/navbar.component';
+import { Component } from '@angular/core';
+import { CardComponent } from '../card/card.component';
 
 @Component({
   selector: 'app-profile',
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, CardComponent],
   templateUrl: './profile.component.html',
   styleUrl: './profile.component.scss',
 })

@@ -1,0 +1,19 @@
+@for (trip of trips; track trip.name){
+<div class="layer">
+  <div
+    class="card"
+    [ngStyle]="{
+      'background-image': getBackgroungImageStyle(trip.backgroundImageUrl)
+    }"
+  >
+    >
+    <div class="card-info">
+      <h1>{{ trip.name }}</h1>
+      <p>{{ trip.date }}</p>
+    </div>
+  </div>
+</div>
+
+} @empty {+
+<p>No trips found.</p>
+}
