@@ -1,5 +1,5 @@
-@for (trip of trips; track trip.name){
-<div class="layer">
+<div class="cards-layout">
+  @for (trip of trips; track trip.name){
   <div
     class="card"
     [ngStyle]="{
@@ -12,8 +12,8 @@
       <p>{{ trip.date }}</p>
     </div>
   </div>
-</div>
 
-} @empty {+
-<p>No trips found.</p>
-}
+  } @empty {+
+  <p>No trips found.</p>
+  }
+</div>
