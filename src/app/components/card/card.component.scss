@@ -36,10 +36,10 @@ p {
   border: none;
   background-color: transparent;
   color: white;
-}
 
-.crud-button:hover {
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 600px) {
